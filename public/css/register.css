@@ -1,0 +1,55 @@
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 95%;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    
+}
+form{
+    margin-left: 105px;
+    margin-top: 75px;
+
+}
+.form-group{
+    padding: 10px;
+    width: 350px;
+    border-radius: 15px;
+}
+.btn-register{
+    margin-top: 45px;
+    width: 330px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    background-color: #ff5500 ;
+}
+img{
+    width: 90px;
+    height: 90px;
+    margin-left: 120px;
+}
+.register-title{
+    color: dimgray;
+}
+
+a{
+    color:dimgray;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+}
+.other-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}

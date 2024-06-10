@@ -1,0 +1,53 @@
+body{
+    margin: 50px;
+}
+.add-course-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    margin-top: 75px;
+    width:900px;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    
+}
+form{
+    margin: 25px;
+}
+.btn-addCourse{
+    width: 330px;
+    color: white;
+    border-radius: 15px;
+    border-color: #ff5500;
+    border: none;
+    height: 45px;
+    margin-top: 45px;
+    background-color: #ff5500 ;
+}
+.btn-lookCourse{
+    width: 330px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin-left: 65px;
+    height: 45px;
+    margin-top: 45px;
+    background-color: #2c17fa;
+
+}
+h2{
+    color: dimgray;
+}
+textarea{
+    width: 90px;
+    height: 120px;
+}
+.msgForm{
+    color: red;
+    font-weight: 500;
+}

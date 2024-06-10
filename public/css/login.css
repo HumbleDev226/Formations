@@ -1,0 +1,50 @@
+
+body{
+    padding: 80px
+}
+.register-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    width:400px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    
+}
+.form-group{
+    padding: 10px;
+    width: 350px;
+    border-radius: 15px;
+}
+.btn-register{
+    width: 330px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    background-color: #ff5500 ;
+}
+img{
+    width: 90px;
+    height: 90px;
+    margin-left: 120px;
+}
+.register-title{
+    color: dimgray;
+}
+
+a,h3{
+    color:dimgray;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.other-action{
+    margin: 15px;
+
+}
