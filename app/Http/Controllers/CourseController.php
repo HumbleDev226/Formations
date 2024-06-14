@@ -79,14 +79,12 @@ class CourseController extends Controller
         }
     }
 
-public function index()
+    public function index()
     {
+        // Récupérer toutes les catégories avec leurs cours
         $categories = Category::with('courses')->get();
-        $courses = Course::all();
 
- // Regrouper les cours par catégorie
- 
-        return view('listFormation', compact('courses','categories'));
+        return view('listformations', compact('categories'));
     }
     public function showFichier($id){
         $course= Course::findOrFail($id);
